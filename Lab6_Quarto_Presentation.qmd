@@ -3,23 +3,36 @@ title: "Lab 6: Quarto Presentation"
 author: "Sara Hussin"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   [@moutafi_discovery_2022] talks about the discovery of biomarkers for non-small cell lung cancer using spatial profiling. In a project, we tried to do the same, but using elastic net regression.
 
-## Bullets
+-   There are issues with expressing NEK proteins in *E. coli* and after reading through the literature, we decided to implement a certain mutation that we hypothesized would help with expression [@rellos_structure_2007].
 
-When you click the **Render** button a document will be generated that includes:
+-   I've become more interested in ML for drug discovery. [@catacutan_machine_2024] talks about the different applications of machine learning in this area and how it can significantly improve clinical translation and patient outcomes.
 
--   Content authored with markdown
--   Output from executable code
+## A Cool Equation or Two
 
-## Code
+-   The equation that made me fall in love with calculus and mathematics
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+$$
+f'(x) = \lim_{h \rightarrow 0} \frac{f(x+h)-f(x)}{h}
+$$
 
-```{r}
-1 + 1
-```
+-   A system of linear equations that are rewritten in an augmented matrix in order to begin finding a solution (not sure if a solution actually exists)
+
+    $$
+    \begin{cases} 3x+5y+z = 1 \\ 7x-2y+4z = 2 \\ -6x+3y+2z = 3
+    \end{cases} \Rightarrow
+    A =
+    \begin{bmatrix}
+     3&5&1&1 \\
+     7&-2&4&2 \\
+     -6&3&2&3
+    \end{bmatrix}
+    $$
+
+## References

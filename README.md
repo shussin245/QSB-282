@@ -1,2 +1,1 @@
-# QSB-282
-A line I wrote on my local computer 
+# QSB-282A line I wrote on my local computer 
